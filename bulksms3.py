@@ -42,4 +42,4 @@ for x in numbers:
 if z[0] == "Error":
   print("== Error. Text messages not sent ==")
 else:
-  print("== All messages has been sent! ==")
+  print("== Message has been sent! ==")
