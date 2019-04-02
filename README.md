@@ -9,6 +9,5 @@ Done!<br>
 
 Python SMS API. Send text messages using python Video
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=v_N6pFR-26Q
-" target="_blank"><img src="http://img.youtube.com/vi/v_N6pFR-26Q/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="424" height="238" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=v_N6pFR-26Q" target="_blank"><img src="http://img.youtube.com/vi/v_N6pFR-26Q/0.jpg" 
+alt="python bulk sms api" width="424" height="238" border="10" /></a>
