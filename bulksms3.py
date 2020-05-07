@@ -18,6 +18,7 @@ numbers = [
 ]
 messagesSent = 0
 host = "https://www.proovl.com/api/send.php?"
+hdr = { 'User-Agent' : 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)' }
 for x in numbers:
   messagesSent += 1
   params = {
@@ -34,7 +35,8 @@ for x in numbers:
     ssl._create_default_https_context = _create_unverified_https_context
   query_string = urllib.parse.urlencode(params)   
   http_req = host + query_string
-  f = urllib.request.urlopen(http_req)
+  req = urllib.request.Request(http_req, headers=hdr)
+  f = urllib.request.urlopen(req)
   txt = (f.read().decode('utf-8'))
   z = txt.split(";")
   time.sleep(0.5)
