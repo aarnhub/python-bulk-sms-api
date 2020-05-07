@@ -28,7 +28,7 @@ for x in numbers:
   txt = (f.read().decode('utf-8'))
   z = txt.split(";")
   time.sleep(0.5)
-  print("Progress: {}/{}") .format(messagesSent, len(numbers)), (x), (z[1])
+  print("Progress: {}/{}") .format(messagesSent, len(numbers)), (x), (z[0])
 if z[0] == "Error":
   print("== Error. Text messages not sent ==")
 else:
